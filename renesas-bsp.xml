@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="renesas"
+	  fetch="https://github.com/morimoto/"
+	  revision="refs/tags/renesas-android/10_1.2" />
+
+  <!--**************************************
+
+      Because original AOSP git is too much big size,
+      having own git repository is risk.
+      Don't use <remove-project> here, and use normal patch style
+      on renesas-android-maker
+
+      *******************************************-->
+
+  <!--**************************************
+
+	Renesas Project
+
+      *******************************************-->
+  <project remote="renesas" name="renesas-android-hardware-renesas-hal-oemlock"			path="hardware/renesas/hal/oemlock"		/>
+  <project remote="renesas" name="renesas-android-hardware-renesas-hal-mapper"			path="hardware/renesas/hal/mapper"		/>
+  <project remote="renesas" name="renesas-android-hardware-renesas-hal-keymaster"		path="hardware/renesas/hal/keymaster"		/>
+  <project remote="renesas" name="renesas-android-hardware-renesas-hal-hwcomposer"		path="hardware/renesas/hal/hwcomposer"		/>
+  <project remote="renesas" name="renesas-android-hardware-renesas-hal-gatekeeper"		path="hardware/renesas/hal/gatekeeper"		/>
+  <project remote="renesas" name="renesas-android-hardware-renesas-hal-fastboot"		path="hardware/renesas/hal/fastboot"		/>
+  <project remote="renesas" name="renesas-android-hardware-renesas-hal-allocator"		path="hardware/renesas/hal/allocator"		/>
+
+  <project remote="renesas" name="renesas-android-hardware-realtek-wlan"			path="hardware/realtek/wlan"			/>
+  <project remote="renesas" name="renesas-android-hardware-ti-wl18xx"				path="hardware/ti/wl18xx"			/>
+
+  <project remote="renesas" name="renesas-android-hardware-renesas-modules-avb-mch"		path="hardware/renesas/modules/avb-mch"		/>
+  <project remote="renesas" name="renesas-android-hardware-renesas-modules-avb-mse"		path="hardware/renesas/modules/avb-mse"		/>
+  <project remote="renesas" name="renesas-android-hardware-renesas-modules-avb-streaming"	path="hardware/renesas/modules/avb-streaming"	/>
+  <project remote="renesas" name="renesas-android-hardware-renesas-modules-mmngr"		path="hardware/renesas/modules/mmngr"		/>
+  <project remote="renesas" name="renesas-android-hardware-renesas-modules-qos"			path="hardware/renesas/modules/qos"		/>
+  <project remote="renesas" name="renesas-android-hardware-renesas-modules-vspm"		path="hardware/renesas/modules/vspm"		/>
+  <project remote="renesas" name="renesas-android-hardware-renesas-modules-vspmif"		path="hardware/renesas/modules/vspmif"		/>
+
+  <project remote="renesas" name="linux"							path="device/renesas/kernel"			/>
+  <project remote="renesas" name="renesas-android-device-renesas-bootloaders-ipl"		path="device/renesas/bootloaders/ipl"		/>
+  <project remote="renesas" name="renesas-android-device-renesas-bootloaders-optee"		path="device/renesas/bootloaders/optee"		/>
+  <project remote="renesas" name="renesas-android-device-renesas-bootloaders-u-boot"		path="device/renesas/bootloaders/u-boot"	/>
+  <project remote="renesas" name="renesas-android-device-renesas-salvator"			path="device/renesas/salvator"			/>
+  <project remote="renesas" name="renesas-android-device-renesas-kingfisher"			path="device/renesas/kingfisher"		/>
+  <project remote="renesas" name="renesas-android-device-renesas-common"			path="device/renesas/common"			/>
+
+  <project remote="renesas" name="renesas-android-vendor-renesas-apps-ActivityViewDemo"		path="vendor/renesas/apps/ActivityViewDemo"	/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-apps-CarRadioApp"		path="vendor/renesas/apps/CarRadioApp"		/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-apps-NetworkDisplayDemo"	path="vendor/renesas/apps/NetworkDisplayDemo"	/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-apps-SoundRecorder"		path="vendor/renesas/apps/SoundRecorder"	/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-apps-evs"			path="vendor/renesas/apps/evs"			/>
+
+  <project remote="renesas" name="renesas-android-vendor-renesas-firmware-radio"		path="vendor/renesas/firmware/radio"		/>
+
+  <project remote="renesas" name="renesas-android-vendor-renesas-hal-audio"			path="vendor/renesas/hal/audio"			/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-hal-audiocontrol"		path="vendor/renesas/hal/audiocontrol"		/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-hal-audioeffect"		path="vendor/renesas/hal/audioeffect"		/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-hal-bootctrl"			path="vendor/renesas/hal/bootctrl"		/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-hal-c2"			path="vendor/renesas/hal/c2"			/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-hal-camera"			path="vendor/renesas/hal/camera"		/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-hal-contexthub"		path="vendor/renesas/hal/contexthub"		/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-hal-dumpstate"			path="vendor/renesas/hal/dumpstate"		/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-hal-evs"			path="vendor/renesas/hal/evs"			/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-hal-gnss"			path="vendor/renesas/hal/gnss"			/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-hal-health"			path="vendor/renesas/hal/health"		/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-hal-light"			path="vendor/renesas/hal/light"			/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-hal-power"			path="vendor/renesas/hal/power"			/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-hal-thermal"			path="vendor/renesas/hal/thermal"		/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-hal-usb"			path="vendor/renesas/hal/usb"			/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-hal-usbgadget"			path="vendor/renesas/hal/usbgadget"		/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-hal-vehicle"			path="vendor/renesas/hal/vehicle"		/>
+
+  <project remote="renesas" name="renesas-android-vendor-renesas-hardware-interfaces"		path="vendor/renesas/hardware/interfaces"	/>
+
+  <project remote="renesas" name="renesas-android-vendor-renesas-utils-fastboot"		path="vendor/renesas/utils/fastboot"		/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-utils-mmngr"			path="vendor/renesas/utils/mmngr"		/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-utils-optee-client"		path="vendor/renesas/utils/optee-client"	/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-utils-qos"			path="vendor/renesas/utils/qos"			/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-utils-si-tools"		path="vendor/renesas/utils/si-tools"		/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-utils-vspmif"			path="vendor/renesas/utils/vspmif"		/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-utils-ipl-tools"		path="vendor/renesas/utils/ipl-tools"		/>
+
+</manifest>
