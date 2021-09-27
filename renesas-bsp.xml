@@ -2,7 +2,7 @@
 <manifest>
   <remote name="renesas"
 	  fetch="https://github.com/morimoto/"
-	  revision="renesas-android/10_1.2" />
+	  revision="renesas-android/10_2.0" />
 
   <!--**************************************
 
@@ -45,11 +45,10 @@
   <project remote="renesas" name="renesas-android-device-renesas-kingfisher"			path="device/renesas/kingfisher"		/>
   <project remote="renesas" name="renesas-android-device-renesas-common"			path="device/renesas/common"			/>
 
-  <project remote="renesas" name="renesas-android-vendor-renesas-apps-ActivityViewDemo"		path="vendor/renesas/apps/ActivityViewDemo"	/>
   <project remote="renesas" name="renesas-android-vendor-renesas-apps-CarRadioApp"		path="vendor/renesas/apps/CarRadioApp"		/>
-  <project remote="renesas" name="renesas-android-vendor-renesas-apps-NetworkDisplayDemo"	path="vendor/renesas/apps/NetworkDisplayDemo"	/>
   <project remote="renesas" name="renesas-android-vendor-renesas-apps-SoundRecorder"		path="vendor/renesas/apps/SoundRecorder"	/>
   <project remote="renesas" name="renesas-android-vendor-renesas-apps-evs"			path="vendor/renesas/apps/evs"			/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-apps-cms-test"			path="vendor/renesas/apps/cms-test"		/>
 
   <project remote="renesas" name="renesas-android-vendor-renesas-firmware-radio"		path="vendor/renesas/firmware/radio"		/>
 
@@ -80,5 +79,7 @@
   <project remote="renesas" name="renesas-android-vendor-renesas-utils-si-tools"		path="vendor/renesas/utils/si-tools"		/>
   <project remote="renesas" name="renesas-android-vendor-renesas-utils-vspmif"			path="vendor/renesas/utils/vspmif"		/>
   <project remote="renesas" name="renesas-android-vendor-renesas-utils-ipl-tools"		path="vendor/renesas/utils/ipl-tools"		/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-utils-usb-scanner"		path="vendor/renesas/utils/usb-scanner"		/>
+  <project remote="renesas" name="renesas-android-vendor-renesas-utils-libgpio"			path="vendor/renesas/utils/libgpio"		/>
 
 </manifest>
