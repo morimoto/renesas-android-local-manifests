@@ -2,7 +2,7 @@
 <manifest>
   <remote name="renesas"
 	  fetch="https://github.com/morimoto/"
-	  revision="renesas-android/10_2.0" />
+	  revision="renesas-android/11_1.0" />
 
   <!--**************************************
 
@@ -27,6 +27,7 @@
   <project remote="renesas" name="renesas-android-hardware-renesas-hal-allocator"		path="hardware/renesas/hal/allocator"		/>
 
   <project remote="renesas" name="renesas-android-hardware-realtek-wlan"			path="hardware/realtek/wlan"			/>
+  <project remote="renesas" name="renesas-android-hardware-realtek-rtl8812au_km"		path="hardware/realtek/rtl8812au_km"		/>
   <project remote="renesas" name="renesas-android-hardware-ti-wl18xx"				path="hardware/ti/wl18xx"			/>
 
   <project remote="renesas" name="renesas-android-hardware-renesas-modules-avb-mch"		path="hardware/renesas/modules/avb-mch"		/>
