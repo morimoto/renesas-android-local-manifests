@@ -2,7 +2,7 @@
 <manifest>
   <remote name="renesas"
 	  fetch="https://github.com/morimoto/"
-	  revision="renesas-android/11_1.0" />
+	  revision="renesas-android/11_1.1" />
 
   <!--**************************************
 
@@ -46,7 +46,6 @@
   <project remote="renesas" name="renesas-android-device-renesas-kingfisher"			path="device/renesas/kingfisher"		/>
   <project remote="renesas" name="renesas-android-device-renesas-common"			path="device/renesas/common"			/>
 
-  <project remote="renesas" name="renesas-android-vendor-renesas-apps-CarRadioApp"		path="vendor/renesas/apps/CarRadioApp"		/>
   <project remote="renesas" name="renesas-android-vendor-renesas-apps-SoundRecorder"		path="vendor/renesas/apps/SoundRecorder"	/>
   <project remote="renesas" name="renesas-android-vendor-renesas-apps-evs"			path="vendor/renesas/apps/evs"			/>
   <project remote="renesas" name="renesas-android-vendor-renesas-apps-cms-test"			path="vendor/renesas/apps/cms-test"		/>
